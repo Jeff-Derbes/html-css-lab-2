@@ -1,0 +1,39 @@
+body{
+    margin: auto;
+    padding: 0;
+    /* background-color: #efefef; */
+}
+
+header{
+    display: flex;
+    background-color: #444444;
+    height: 100px;
+}
+
+.container{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 100vw;
+    position: relative;
+}
+.leftcolumn{
+    background-color: #d8d8d8;
+    width: 20vw;
+    height: calc(100vh - 100px);
+}
+
+.rightcolumn{
+    background-color: #d8d8d8;
+    width: 20vw;
+    height: calc(100vh - 100px);
+}
+
+footer{
+    background-color: black;
+    height: 10vh;
+    bottom: 0;
+    width: 60vw;
+    position: absolute;
+    left: 20vw;
+}

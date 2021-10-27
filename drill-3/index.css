@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: grey;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+}
+main{
+    height: 20vh;
+}
+.box{
+    background-color: skyblue;
+    height: 5rem;
+    width: 5rem;
+    margin: .5rem;
+}
+
+
+.bluebox{
+    background-color: #5b8fdc;
+    height: 20vh;
+    width: 100vw;
+}
+.tealbox{
+    background-color: #7be0c3;
+    height: 20vh;
+    width: 100vw;
+}
+.greenbox{
+    background-color: #c2e791;
+    height: 20vh;
+    width: 100vw;
+}
+.yellowbox{
+    background-color: #f5e752;
+    height: 20vh;
+    width: 100vw;
+}
+
+.icon{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    background-color: black;
+    margin-bottom: 1rem;
+    color: white;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 2rem;
+}

@@ -1,0 +1,60 @@
+.topbox{
+    border: black solid 5px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 2vh;
+}
+
+.smallrectangle{
+    width: 6rem;
+    height: 12rem;
+    background-color: purple;
+    margin-left: 1rem;
+    margin-top: 6rem;
+}
+
+.greensquare{
+    background-color: green;
+    width: 30rem;
+    height: 15rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+}
+
+.bluecircle{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background-color: skyblue;
+    margin-left: 7rem;
+    margin-top: 2rem;
+}
+
+.dottedborder{
+    border: black dotted 2px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.rectangle{
+    width: 115rem;
+    height: 15rem;
+    background-color: beige;
+    box-shadow: 10px 5px 5px black;
+    margin: 1rem;
+}
+
+.message{
+    border: grey solid 1px;
+    text-align: center;
+    margin-top: 2vh;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    padding: 12vh;
+    color: navy;
+    font-size: 3em;
+    box-shadow: 2px 2px 0px 0px grey
+}
+
